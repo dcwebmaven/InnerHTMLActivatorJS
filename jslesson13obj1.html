@@ -1,0 +1,33 @@
+<html>
+<head>
+<script type="text/javascript">
+<!--
+function changeIt()
+{
+var cell1=document.getElementById("theTable").rows[2].cells[1]
+cell1.innerHTML = "<img src='http://dianaprince.usersource.com/cello.jpg'>"
+}
+//-->
+</script>
+</head>
+<body>
+<table id="theTable" border="1" cellpadding="10">
+<tr>
+<td>I</td>
+<td>Love</td>
+</tr>
+<tr>
+<td>to</td>
+<td>Play</td>
+</tr>
+<tr>
+<td>the</td>
+<td>Cello!</td>
+</tr>
+</table>
+<br/>
+<form name="myForm">
+<input type="button" value="Change It" onClick="changeIt()"/>
+</form>
+</body>
+</html>
